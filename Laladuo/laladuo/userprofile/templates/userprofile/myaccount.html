@@ -1,0 +1,12 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+myaccount{% endblock %}
+
+
+
+{% block content %}
+    <h1>My account</h1>
+
+    <a href="{% url 'logout' %}">Logout</a>
+{% endblock %}
